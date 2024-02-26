@@ -1,0 +1,239 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/google-logo-png-suite-everything-you-need-know-about-google-newest-0-2.png
+    - assets/page-1/images/notification.png
+    - assets/page-1/images/icon-menu-settings.png
+    - assets/page-1/images/vector-67.png
+    - assets/page-1/images/vector-68.png
+    - assets/page-1/images/vector-68-2fY.png
+    - assets/page-1/images/icon-menu-progress.png
+    - assets/page-1/images/iconly-broken-search.png
+    - assets/page-1/images/ellipse-780.png
+    - assets/page-1/images/iconly-broken-star.png
+    - assets/page-1/images/icons.png
+    - assets/page-1/images/icon-pills.png
+    - assets/page-1/images/icon-breath.png
+    - assets/page-1/images/icon-checkbox-empty.png
+    - assets/page-1/images/icon-menu-home.png
+    - assets/page-1/images/vector-67-1kS.png
+    - assets/page-1/images/icon-menu-home-d5x.png
+    - assets/page-1/images/icon-username.png
+    - assets/page-1/images/icon-arrow-long-right.png
+    - assets/page-1/images/icon-breath-UR4.png
+    - assets/page-1/images/icon-checkbox-full.png
+    - assets/page-1/images/icon-email.png
+    - assets/page-1/images/arrow-7.png
+    - assets/page-1/images/icon-menu-home-Lbp.png
+    - assets/page-1/images/arrow-4.png
+    - assets/page-1/images/polygon-1.png
+    - assets/page-1/images/icon-policy.png
+    - assets/page-1/images/icon-arrow-long-right-g5t.png
+    - assets/page-1/images/group-9.png
+    - assets/page-1/images/icon-breath-uCA.png
+    - assets/page-1/images/icon-menu-activity.png
+    - assets/page-1/images/icon-link.png
+    - assets/page-1/images/icon-arrow-long-right-fwC.png
+    - assets/page-1/images/icon-menu-settings-TxS.png
+    - assets/page-1/images/icon-checkbox-full-hYa.png
+    - assets/page-1/images/icon-pills-Z3c.png
+    - assets/page-1/images/arrow-left.png
+    - assets/page-1/images/upper-1.png
+    - assets/page-1/images/icon-email-aQW.png
+    - assets/page-1/images/icon-hide-password.png
+    - assets/page-1/images/icon-arrow-long-right-L1C.png
+    - assets/page-1/images/icon-arrow-long-right-8jx.png
+    - assets/page-1/images/icon-arrow-long-right-VsL.png
+    - assets/page-1/images/flame-2-1.png
+    - assets/page-1/images/arrow-left-5Hg.png
+    - assets/page-1/images/icon-menu-progress-upS.png
+    - assets/page-1/images/icon-menu-settings-dNN.png
+    - assets/page-1/images/btn-shadow.png
+    - assets/page-1/images/button-shadow.png
+    - assets/page-1/images/icon-locked.png
+    - assets/page-1/images/iconly-broken-star-sev.png
+    - assets/page-1/images/ellipse-780-gbg.png
+    - assets/page-1/images/icon-menu-activity-byY.png
+    - assets/page-1/images/search.png
+    - assets/page-1/images/icon-menu-home-nYn.png
+    - assets/page-1/images/icon-link-HJW.png
+    - assets/page-1/images/button-shadow-bpz.png
+    - assets/page-1/images/auto-group-phdp.png
+    - assets/page-1/images/icon-hide-password-Ti6.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/group-8.png
+    - assets/page-1/images/icons-UTx.png
+    - assets/page-1/images/google-logo-png-suite-everything-you-need-know-about-google-newest-0-2-CC6.png
+    - assets/page-1/images/icon-fb.png
+    - assets/page-1/images/icon-yoga.png
+    - assets/page-1/images/rectangle-5915.png
+    - assets/page-1/images/button-shadow-uzE.png
+    - assets/page-1/images/icon-fb-2Rt.png
+    - assets/page-1/images/button-shadow-D8J.png
+    - assets/page-1/images/icon-locked-xHU.png
+    - assets/page-1/images/icon-menu-activity-jzN.png
+    - assets/page-1/images/icon-arrow-long-left.png
+    - assets/page-1/images/iconly-broken-star-JuU.png
+    - assets/page-1/images/icon-steps.png
+    - assets/page-1/images/icon-menu-progress-9xJ.png
+    - assets/page-1/images/button-shadow-Msk.png
+    - assets/page-1/images/icon-close.png
+    - assets/page-1/images/iconly-light-arrow-right-2.png
+    - assets/page-1/images/icon-checkbox-full-7MG.png
+    - assets/page-1/images/lower-1.png
+    - assets/page-1/images/icon-menu-activity-Fve.png
+    - assets/page-1/images/auto-group-bhrg.png
+    - assets/page-1/images/icon-notification.png
+    - assets/page-1/images/icon-menu-progress-fka.png
+    - assets/page-1/images/icon-menu-progress-BLi.png
+    - assets/page-1/images/icon-menu-settings-Wdt.png
+    - assets/page-1/images/icon-support.png
+    - assets/page-1/images/icons-fiN.png
+    - assets/page-1/images/notifications.png
+    - assets/page-1/images/frame-12-1.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/icon-menu-activity-eAi.png
+    - assets/page-1/images/icon-menu-activity-2jY.png
+    - assets/page-1/images/video-camera-1.png
+    - assets/page-1/images/image-23.png
+    - assets/page-1/images/auto-group-ikbt.png
+    - assets/page-1/images/icons-Ym4.png
+    - assets/page-1/images/image-removebg-preview-2.png
+    - assets/page-1/images/image-15-bg.png
+    - assets/page-1/images/auto-group-3ozv.png
+    - assets/page-1/images/vector-ze2.png
+    - assets/page-1/images/icon-contact.png
+    - assets/page-1/images/vector-bYS.png
+    - assets/page-1/images/search-Vhg.png
+    - assets/page-1/images/icons-f18.png
+    - assets/page-1/images/icon-menu-home-fsc.png
+    - assets/page-1/images/vector-Zj4.png
+    - assets/page-1/images/image-16-bg.png
+    - assets/page-1/images/image-15.png
+    - assets/page-1/images/icon-manager.png
+    - assets/page-1/images/auto-group-uhwl.png
+    - assets/page-1/images/vector-wx2.png
+    - assets/page-1/images/icon-menu-settings-T74.png
+    - assets/page-1/images/wallpaper.png
+    - assets/page-1/images/vector-5KC.png
+    - assets/page-1/images/icon-arrow-long-left-oW6.png
+    - assets/page-1/images/vector-n4W.png
+    - assets/page-1/images/image-21-bg.png
+    - assets/page-1/images/vector-ksg.png
+    - assets/page-1/images/vector-7Nn.png
+    - assets/page-1/images/frame-8-1.png
+    - assets/page-1/images/frame-8-1-cML.png
+    - assets/page-1/images/image-22.png
+    - assets/page-1/images/vector-Y8N.png
+    - assets/page-1/images/image-15-bg-yoL.png
+    - assets/page-1/images/vector-gKQ.png
+    - assets/page-1/images/vector-gop.png
+    - assets/page-1/images/vector-x1C.png
+    - assets/page-1/images/vector-FoU.png
+    - assets/page-1/images/icon-menu-home-uUJ.png
+    - assets/page-1/images/vector-MNW.png
+    - assets/page-1/images/illo-success.png
+    - assets/page-1/images/vector-eop.png
+    - assets/page-1/images/image-15-bg-XRp.png
+    - assets/page-1/images/image-removebg-preview-1.png
+    - assets/page-1/images/image-19.png
+    - assets/page-1/images/image-15-u5g.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/image-14.png
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/vector-7TU.png
+    - assets/page-1/images/ellipse-34-bg.png
+    - assets/page-1/images/rectangle-2.png
+    - assets/page-1/images/image-13.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
